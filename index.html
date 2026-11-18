@@ -1,0 +1,102 @@
+<div class="website">
+
+  <!-- PAGE 1: INTRO -->
+  <section class="scene active" id="scene1">
+    <div class="decor">✨ 🎀 ✨</div>
+    <h1>Are you thinking what's in this website for you?</h1>
+    <p>What are you waiting for? Just do a click!</p>
+    <button onclick="showScene('scene2')">START 💗</button>
+  </section>
+
+  <!-- PAGE 2: WELCOME -->
+  <section class="scene" id="scene2">
+    <div class="heart">💗</div>
+    <h1>Welcome Miss Hajra Ayub!</h1>
+    <h2>Do you like me?</h2>
+    <button onclick="showScene('scene3')">YES 💕</button>
+  </section>
+
+  <!-- PAGE 3: SPECIAL DAY -->
+  <section class="scene" id="scene3">
+    <div class="decor">🌸 ✨ 🌸</div>
+    <h1 class="special">A SPECIAL DAY<br>WITH A WISH</h1>
+    <button onclick="showScene('scene4')">WHAT? 👀</button>
+  </section>
+
+  <!-- PAGE 4: BIRTHDAY -->
+  <section class="scene" id="scene4">
+    <div class="decor">🎉 🎊 🎉</div>
+    <h1>IT'S YOUR BIRTHDAYYYY!</h1>
+    <h2>WOHOOOOOO 🥳</h2>
+    <p>NOW POP THE BALLOONS!</p>
+
+    <div class="balloon-container">
+
+      <div class="balloon-item">
+        <button class="balloon" id="balloon1"
+          onclick="popBalloon(1)">🎈</button>
+        <div class="wish" id="wish1"></div>
+      </div>
+
+      <div class="balloon-item">
+        <button class="balloon" id="balloon2"
+          onclick="popBalloon(2)">🎈</button>
+        <div class="wish" id="wish2"></div>
+      </div>
+
+    </div>
+
+    <button id="enjoyButton" class="hidden"
+      onclick="startPanda()">ENJOYING? 💗</button>
+  </section>
+
+  <!-- PAGE 5: DANCING PANDA -->
+  <section class="scene" id="scene5">
+    <h1>ONE SPECIAL SURPRISE! 🐼</h1>
+
+    <div class="panda" id="panda">🐼</div>
+
+    <h2 id="pandaText">A little dance for you! 💃</h2>
+
+    <div class="flying-kiss" id="flyingKiss">💋</div>
+
+    <p id="kissText" class="hidden">MWAHHH! 💗</p>
+  </section>
+
+  <!-- PAGE 6: FINAL BIRTHDAY LETTER -->
+  <section class="scene letter-scene" id="scene6">
+
+    <div class="letter-decoration">💌 🌷 ✨</div>
+
+    <h1 class="letter-title">Happy Birthday, Hajra! 🎂</h1>
+
+    <div class="letter-content">
+
+      <p>Happy Birthday, my dear friend! 🎉🎂 ✨ May this year bring you amazing memories, new adventures, and all the success your heart desires. 🌟 Keep smiling, keep shining, and never stop being the incredible person you are. 💛 Cheers to more late-night talks, unforgettable moments, and laughter that never ends! 🥳🎈 Enjoy your special day to the fullest—you deserve nothing but the best. 💫</p>
+
+      <p>Wishing you a future filled with success, growth, and endless opportunities! 🌟💼 May every step you take bring you closer to your dreams, and may you always find the courage to keep going, even when the path gets tough. 🚀✨ Believe in yourself—you have everything it takes to achieve greatness. 💪🌈 May new doors open, new skills flourish, and new victories brighten your journey. 🏆📈 Stay focused, stay inspired, and never stop chasing what sets your soul on fire. 🔥💡 Your future is bright, and the best is yet to come! 🌞🎉 Keep shining!</p>
+
+      <p>I’m here for you, no matter how tough things get. 🤝💛</p>
+
+      <p>🌟 Stay hopeful, take it one day at a time.</p>
+
+      <p>May your days be filled with pure joy. 😊✨</p>
+
+      <p>May your heart always stay light. 💛🌼</p>
+
+      <p>Wishing you endless laughter. 😂🎉</p>
+
+      <p>May peace surround your life. 🕊️💫</p>
+
+      <div class="final-hearts">💗 💗 💗</div>
+
+      <h2>Once again, HAPPY BIRTHDAY! 🥳</h2>
+
+      <p class="signature">With lots of love! 💕</p>
+
+    </div>
+  </section>
+
+</div>
+
+
